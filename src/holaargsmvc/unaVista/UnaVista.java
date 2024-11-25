@@ -49,6 +49,7 @@ public class UnaVista extends javax.swing.JFrame {
 
         txtEstado.setBackground(new java.awt.Color(255, 255, 255));
         txtEstado.setText("Iniciando ...");
+        txtEstado.setToolTipText("Indicaciones de ayuda");
         getContentPane().add(txtEstado, java.awt.BorderLayout.SOUTH);
 
         pack();
